@@ -30,13 +30,13 @@ Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Impo
 3. **Hochladen der Export-Dateien**:
    - Wählen Sie im ersten Feld die **Erzieher Export Datei** aus SchildNRW aus (normalerweise die Datei mit den Erzieherdaten).
    - Wählen Sie im zweiten Feld die **Ansprechpartner Export Datei** aus SchildNRW aus (normalerweise die Datei mit den zusätzlichen Ansprechpartnerdaten).
-[Hier geht's zu den Schild-Exporteinstellungen](Schild-Export%20Einstellungen.md)
+[Hier geht's zu den Schild-Exporteinstellungen.](Schild-Export%20Einstellungen.md)
 4. **Verarbeitung der Daten**:
    - Klicken Sie auf "Dateien hochladen und verarbeiten". Das Programm wird die Daten zusammenführen und die benötigten Importdateien erstellen.
 
 5. **Erhalten der Importdateien**:
    - Nach erfolgreicher Verarbeitung wird eine ZIP-Datei zum Download bereitgestellt. Diese enthält die einzelnen Importdateien (`Erzieher_1.csv`, `Erzieher_2.csv`, usw.) für den Import in WebUntis.
-[Hier geht's zu den WebUntis-Importeinstellungen](WebUntis-Import%20Einstellungen.md)
+[Hier geht's zu den WebUntis-Importeinstellungen.](WebUntis-Import%20Einstellungen.md)
 ## **Häufige Probleme und Lösungen**
 
 - **Problem: Die EXE-Datei lässt sich nicht ausführen oder wird blockiert.**
