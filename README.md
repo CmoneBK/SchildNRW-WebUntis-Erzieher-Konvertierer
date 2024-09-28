@@ -29,8 +29,8 @@ Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Impo
 
 3. **Hochladen der Export-Dateien**:
    - [Hier geht's zu den Schild-Exporteinstellungen.](Schild-Export%20Einstellungen.md)
-   - Wählen Sie im ersten Feld die **Erzieher Export Datei** aus SchildNRW aus (normalerweise die Datei mit den Erzieherdaten).
-   - Wählen Sie im zweiten Feld die **Ansprechpartner Export Datei** aus SchildNRW aus (normalerweise die Datei mit den zusätzlichen Ansprechpartnerdaten).
+   - Wählen Sie im ersten Feld die **Erzieher Export Datei** aus SchildNRW aus.
+   - Wählen Sie im zweiten Feld die **Ansprechpartner Export Datei** aus SchildNRW aus.
      
 5. **Verarbeitung der Daten**:
    - Klicken Sie auf "Dateien hochladen und verarbeiten". Das Programm wird die Daten zusammenführen und die benötigten Importdateien erstellen.
