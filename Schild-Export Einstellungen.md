@@ -22,7 +22,7 @@ In dieser Anleitung wird beschrieben, wie Sie die richtigen Einstellungen für d
   - **Feld-Trennzeichen**: `;`
   - **Begrenzer f. Textfelder**: `"` (Anführungszeichen)
   - **Kopfzeile ausgeben**: ✔️ (aktivieren)
-  - **Datei im Unicode-Format erzeugen**: ✔️ (aktivieren)
+  - **Datei im Unicode-Format erzeugen**: (nicht aktivieren)
 
 ### Schritt 4: Speichern als .csv-Datei
 - Beim Speichern des Exports achten Sie darauf, als Dateityp "Alle Dateien (*.*)" auszuwählen und die Datei mit der Endung `.csv` zu versehen, zum Beispiel `AnsprechpartnerExport.csv`. Dadurch wird sichergestellt, dass die Datei im richtigen Format gespeichert wird.
@@ -67,7 +67,7 @@ In dieser Anleitung wird beschrieben, wie Sie die richtigen Einstellungen für d
   - **Feld-Trennzeichen**: `;`
   - **Begrenzer f. Textfelder**: `"` (Anführungszeichen)
   - **Kopfzeile ausgeben**: ✔️ (aktivieren)
-  - **Datei im Unicode-Format erzeugen**: ✔️ (aktivieren)
+  - **Datei im Unicode-Format erzeugen**: (nicht aktivieren)
  
 ### Schritt 4: Speichern als .csv-Datei
 - Auch hier ist es wichtig, beim Speichern des Exports "Alle Dateien (*.*)" auszuwählen und die Datei mit der Endung `.csv` zu versehen, zum Beispiel `ErzieherExport.csv`.
