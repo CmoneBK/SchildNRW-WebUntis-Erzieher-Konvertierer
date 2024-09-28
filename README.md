@@ -28,7 +28,7 @@ Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Impo
    - Doppelklicken Sie auf `SchildNRW-WebUntis Erzieher-Konvertierer.exe`, um die Anwendung zu starten.
 
 3. **Hochladen der Export-Dateien**:
-   [Hier geht's zu den Schild-Exporteinstellungen.](Schild-Export%20Einstellungen.md)
+   - [Hier geht's zu den Schild-Exporteinstellungen.](Schild-Export%20Einstellungen.md)
    - Wählen Sie im ersten Feld die **Erzieher Export Datei** aus SchildNRW aus (normalerweise die Datei mit den Erzieherdaten).
    - Wählen Sie im zweiten Feld die **Ansprechpartner Export Datei** aus SchildNRW aus (normalerweise die Datei mit den zusätzlichen Ansprechpartnerdaten).
      
