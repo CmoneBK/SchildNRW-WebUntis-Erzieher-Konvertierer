@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Erzieher- und Ansprechpartner-Import</title>
+</head>
+<body>
+    <h1>Erzieher- und Ansprechpartnerdaten hochladen</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label for="erzieher_export_file">Erzieher Export Datei:</label>
+        <input type="file" name="erzieher_export_file" required><br><br>
+
+        <label for="ansprechpartner_export_file">Ansprechpartner Export Datei:</label>
+        <input type="file" name="ansprechpartner_export_file" required><br><br>
+
+        <input type="submit" value="Dateien hochladen und verarbeiten">
+    </form>
+</body>
+</html>
