@@ -22,7 +22,7 @@ Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Impo
 ## **Verwendung der Anwendung**
 
 1. **Download der ausführbaren Datei**: 
-   - Laden Sie die bereitgestellte Datei `SchildNRW-WebUntis Erzieher-Konvertierer.exe` auf Ihren Computer herunter.
+   - Laden Sie die bereitgestellte Datei [`SchildNRW-WebUntis_Erzieher-Konvertierer.exe`](https://github.com/CmoneBK/SchildNRW-WebUntis-Erzieher-Konvertierer/blob/master/dist/SchildNRW-WebUntis_Erzieher-Konvertierer.exe) auf Ihren Computer herunter. (Der Download-Button befindet sich rechts oben neben dem "RAW".)
 
 2. **Ausführen der EXE-Datei**:
    - Doppelklicken Sie auf `SchildNRW-WebUntis Erzieher-Konvertierer.exe`, um die Anwendung zu starten.
