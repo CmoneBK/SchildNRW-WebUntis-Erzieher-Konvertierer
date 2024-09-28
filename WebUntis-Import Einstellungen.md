@@ -39,7 +39,8 @@ Falls Sie mehrere Erzieher-Datensätze importieren können Sie diese Vorlage fü
 
 ## Abschluss des Imports
 Nachdem Sie die Einstellungen vorgenommen haben, klicken Sie auf **Vorschau**, um die Daten zu überprüfen. Wenn alles korrekt ist, führen Sie den Importvorgang bzw. die Importvorgänge aus.
-Gerade am Anfang wird dabei auffallen, das Einige Erzieherdaten in Schild doppelt vorhanden sind. Dies muss für einen reibungsfreien Import natürlich korrigiert werden. 
+
+Gerade am Anfang wird dabei auffallen, das einige Erzieherdaten in Schild doppelt vorhanden sind. Dies muss für einen reibungsfreien Import natürlich korrigiert werden. 
 
 Anschließend sollten die Erzieherdaten korrekt in WebUntis importiert sein und die Telefonnummern sowie weiteren Details pro Erzieher richtig zugeordnet werden.
 
