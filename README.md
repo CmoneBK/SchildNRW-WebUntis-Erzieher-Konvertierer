@@ -53,4 +53,4 @@ Durch die Konvertierung und Zusammenführung der Daten ermöglicht dieses Progra
 
 ## **Lizenz**
 
-Dieses Programm ist unter der MIT-Lizenz lizenziert – weitere Informationen finden Sie in der [LICENSE](LICENSE)-Datei.
+Dieses Programm ist unter der MIT-Lizenz lizenziert.
