@@ -1,56 +1,45 @@
-# SchildNRW-WebUntis Erzieher-Konvertierer
+# WebUntis Import Einstellungen
 
-## **Übersicht**
+In dieser Anleitung wird beschrieben, wie Sie die exportierten Daten mit dem "SchildNRW-WebUntis Erzieher-Konvertierer" in WebUntis importieren. Die Einstellungen müssen sorgfältig vorgenommen werden, um eine korrekte Zuordnung der Erzieherdaten zu gewährleisten.
 
-Der "SchildNRW-WebUntis Erzieher-Konvertierer" wurde entwickelt, um das Problem der getrennten Speicherung von Erziehern und Ansprechpartnern in **SchildNRW** zu lösen, sodass eine korrekte Datenübertragung nach **WebUntis** erfolgen kann.
+## Schritt 1: Importmenü in WebUntis öffnen
+- Öffnen Sie das Import-Menü in WebUntis und speicherns Sie folgende Einstellungen als Importvorlage z.B.: **ErzieherImport**.
 
-In **SchildNRW** können zwar beliebig viele Ansprechpartner mit unterschiedlichen Telefonnummern pro Schüler hinterlegt werden, allerdings wird bei den eigentlichen Erzieher-Datensätzen nur eine einzige Telefonnummer unterstützt. WebUntis erwartet hingegen für jeden Erzieher inklusive Telefonnummern einen eigenen Datensatz, um eine reibungslose Zuordnung zu ermöglichen. Dieses Programm stellt daher sicher, dass alle Erzieherinformationen (einschließlich Telefonnummern) in einem Format aufbereitet werden, das für den Import in WebUntis geeignet ist.
+## Schritt 2: Trennzeichen auswählen
+- Stellen Sie sicher, dass als **Trennzeichen** `Strichpunkt (;)` ausgewählt ist.
 
-## **Funktionsweise**
+## Schritt 3: Feldzuordnung
+Nehmen Sie die Zuordnung der Felder entsprechend den Spalten der CSV-Dateien vor. Folgende Zuordnungen empfehle ich:
 
-Der "SchildNRW-WebUntis Erzieher-Konvertierer" kombiniert Erzieherdaten aus den zwei separaten Exportdateien von **SchildNRW**:
+| CSV-Feld                      | WebUntis-Feldzuordnung           |
+|-------------------------------|----------------------------------|
+| **Interne_ID_Nummer**         | Schlüssel (extern, Schüler)      |
+| **Erzieher 1: Anrede**        | Kurzname                         |
+| **Erzieher 1: Briefanrede**   | (leer lassen)                    |
+| **Erzieher 1: Titel**         | Titel                            |
+| **Erzieher 1: Nachname**      | Familienname                     |
+| **Erzieher 1: Vorname**       | Vorname                          |
+| **Erzieher 1: E-Mail**        | E-Mail Adresse                   |
+| **Erzieher 1: Anschluss Art** | Akad. Grad, nachgestellt         |
+| **Erzieher 1: Bemerkung**     | Akad. Grad                       |
+| **Erzieher 1: Telefon-Nummer**| Telefonnummer                    |
 
-- **Erzieher Export (Hauptdaten)**
-- **Ansprechpartner Export (Zusätzliche Daten)**
+Falls Sie mehrere Erzieher-Datensätze importieren können Sie diese Vorlage für alle Erzieher Import Dateien verwenden.
 
-Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Import-Datei, die vollständig kompatibel mit WebUntis ist. Damit wird sichergestellt, dass jeder Erzieher und Ansprechpartner mit der richtigen Telefonnummer in WebUntis importiert wird.
+## Schritt 4: Weitere Einstellungen
+- Aktivieren Sie die Checkbox **Erste Zeile ignorieren**, da die erste Zeile der CSV-Datei die Kopfzeilen enthält.
+- Aktivieren Sie außerdem die Option **Schülerverbindung additiv importieren**, um bestehende Verbindungen nicht zu überschreiben, sondern nur hinzuzufügen.
+- Erst am Ende des Schuljahres sollten Sie diesen Haken entfernen.
 
-## **Voraussetzungen**
+### Schritt 5: Identifikation des Erziehungsberechtigten
+- Stellen Sie sicher, dass **automatisch** unter "Identifikation des Erziehungsberechtigten" ausgewählt ist.
 
-- **Windows-Betriebssystem**: Die EXE-Datei ist für Windows vorbereitet und getestet.
+### Beispiel-Screenshot der Import-Einstellungen:
+![WebUntis Import Einstellungen](F3.png)
 
-## **Verwendung der Anwendung**
+## Abschluss des Imports
+Nachdem Sie die Einstellungen vorgenommen haben, klicken Sie auf **Vorschau**, um die Daten zu überprüfen. Wenn alles korrekt ist, führen Sie den Importvorgang bzw. die Importvorgänge aus.
+Gerade am Anfang wird dabei auffallen, das Einige Erzieherdaten in Schild doppelt vorhanden sind. Dies muss für einen reibungsfreien Import natürlich korrigiert werden. 
 
-1. **Download der ausführbaren Datei**: 
-   - Laden Sie die bereitgestellte Datei [`SchildNRW-WebUntis_Erzieher-Konvertierer.exe`](https://github.com/CmoneBK/SchildNRW-WebUntis-Erzieher-Konvertierer/blob/master/dist/SchildNRW-WebUntis_Erzieher-Konvertierer.exe) auf Ihren Computer herunter. (Der Download-Button befindet sich rechts oben neben dem "RAW".)
+Anschließend sollten die Erzieherdaten korrekt in WebUntis importiert sein und die Telefonnummern sowie weiteren Details pro Erzieher richtig zugeordnet werden.
 
-2. **Ausführen der EXE-Datei**:
-   - Doppelklicken Sie auf `SchildNRW-WebUntis Erzieher-Konvertierer.exe`, um die Anwendung zu starten.
-
-3. **Hochladen der Export-Dateien**:
-   - Wählen Sie im ersten Feld die **Erzieher Export Datei** aus SchildNRW aus (normalerweise die Datei mit den Erzieherdaten).
-   - Wählen Sie im zweiten Feld die **Ansprechpartner Export Datei** aus SchildNRW aus (normalerweise die Datei mit den zusätzlichen Ansprechpartnerdaten).
-
-4. **Verarbeitung der Daten**:
-   - Klicken Sie auf "Dateien hochladen und verarbeiten". Das Programm wird die Daten zusammenführen und die benötigten Importdateien erstellen.
-
-5. **Erhalten der Importdateien**:
-   - Nach erfolgreicher Verarbeitung wird eine ZIP-Datei zum Download bereitgestellt. Diese enthält die einzelnen Importdateien (`Erzieher_1.csv`, `Erzieher_2.csv`, usw.) für den Import in WebUntis.
-
-## **Häufige Probleme und Lösungen**
-
-- **Problem: Die EXE-Datei lässt sich nicht ausführen oder wird blockiert.**
-  - **Lösung**: Überprüfen Sie, ob Ihr Antivirus-Programm die Anwendung blockiert. Fügen Sie eine Ausnahme hinzu, falls erforderlich.
-
-- **Problem: Fehlende Daten in den Exportdateien**
-  - **Lösung**: Stellen Sie sicher, dass die SchildNRW-Exportdateien vollständig und korrekt formatiert sind, bevor Sie sie in die Anwendung hochladen.
-
-## **Hintergrund zum Projekt**
-
-Das Programm wurde entwickelt, um das Problem der getrennten Speicherung von Erziehern und Ansprechpartnern in SchildNRW zu lösen. Da WebUntis jeden Erzieher und Ansprechpartner als separaten Datensatz behandelt, musste eine Lösung gefunden werden, die es ermöglicht, die verschiedenen Telefonnummern korrekt in das System zu übertragen.
-
-Durch die Konvertierung und Zusammenführung der Daten ermöglicht dieses Programm einen vollständigen und fehlerfreien Import nach WebUntis, sodass die Schulverwaltungsdaten korrekt übertragen werden können.
-
-## **Lizenz**
-
-Dieses Programm ist unter der MIT-Lizenz lizenziert – weitere Informationen finden Sie in der [LICENSE](LICENSE)-Datei.
