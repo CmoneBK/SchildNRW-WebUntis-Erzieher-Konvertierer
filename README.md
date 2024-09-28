@@ -10,10 +10,11 @@ In **SchildNRW** können zwar beliebig viele Ansprechpartner mit unterschiedlich
 
 Der "SchildNRW-WebUntis Erzieher-Konvertierer" kombiniert Erzieherdaten aus den zwei separaten Exportdateien von **SchildNRW**:
 
-- **Erzieher Export (Hauptdaten)**
+- **Erzieher Export (Hauptdaten)** 
 - **Ansprechpartner Export (Zusätzliche Daten)**
 
 Es erzeugt für jeden Erzieher- und Ansprechpartner-Datensatz eine separate Import-Datei, die vollständig kompatibel mit WebUntis ist. Damit wird sichergestellt, dass jeder Erzieher und Ansprechpartner mit der richtigen Telefonnummer in WebUntis importiert wird.
+[Hier geht's zu den Schild-Exporteinstellungen](Schild-Export%20Einstellungen.md)
 
 ## **Voraussetzungen**
 
